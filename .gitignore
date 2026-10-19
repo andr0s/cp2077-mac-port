@@ -1,0 +1,26 @@
+# Only the tooling, the documentation and the analysis notes are versioned. Builds, source clones (ports/ and src/ are
+# separate git repositories), game dumps, logs, the local install state and third-party mods stay out. The detailed
+# security reports (review/) stay local until the upstream projects have merged the fixes.
+/*
+!/.gitignore
+!/cp2077-mac.sh
+!/README.md
+!/MACOS_GUIDE.md
+!/address-db/
+
+!/_work/
+/_work/*
+!/_work/scc-test.sh
+!/_work/addrdb/
+/_work/addrdb/*
+!/_work/addrdb/merge.py
+!/_work/re/
+/_work/re/*
+!/_work/re/cpre.cpp
+!/_work/re/re.sh
+!/_work/re/dis.sh
+!/_work/codeware/
+/_work/codeware/*
+!/_work/codeware/*.md
+
+.DS_Store
